@@ -8,13 +8,24 @@ function colocarImagem() {
     img2.style.display = "block";
 }
 
-function mudarImagem() {
+function abrirImagem() {
     if (img1.src = "./imagens/greatball.png") {
         img1.src = "./imagens/greataberta.png";
     }
     
     if (img2.src = "./imagens/moonball.png") {
         img2.src = "./imagens/moonaberta.png";
+    }
+
+}
+
+function fecharImagem() {
+    if (img1.src = "./imagens/greataberta.png") {
+        img1.src = "./imagens/greatball.png";
+    }
+    
+    if (img2.src = "./imagens/moonaberta.png") {
+        img2.src = "./imagens/moonball.png";
     }
 
 }
