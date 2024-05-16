@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.cor1 {
+    background-color: aqua;
+    display: block;
+    height: 100px;
+    align-content: center;
+}
+
+.cor2 {
+    background-color: rgb(41, 172, 172);
+    display: block;
+    height: 50px;
+}
+
+.cor1 > img {
+    display: none;
+    width: 80px;
+    margin-left: 40px;
+}
+
+.cor2 > img {
+    display: none;
+    width: 40px;
+    margin-left: 60px;
+}
