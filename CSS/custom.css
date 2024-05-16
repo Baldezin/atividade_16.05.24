@@ -3,7 +3,7 @@ body {
 }
 
 .cor1 {
-    background-color: aqua;
+    background-color: rgb(255, 78, 93);
     display: block;
     height: 100px;
     align-content: center;
@@ -11,7 +11,7 @@ body {
 }
 
 .cor2 {
-    background-color: rgb(41, 172, 172);
+    background-color: rgb(211, 51, 65);
     display: block;
     height: 50px;
     align-content: center;
@@ -21,13 +21,14 @@ button {
     margin-left: 20px;
     margin-top: 20px;
     border: none;
-    background-color: rgb(122, 255, 255);
+    background-color: rgb(218, 218, 218);
     height: 30px;
     border-radius: 50px;
+    transition: background-color ease 0.3s;
 }
 
 button:hover {
-    background-color: rgb(78, 221, 221);
+    background-color: rgb(160, 160, 160);
 }
 
 #imagem1 {
@@ -36,4 +37,12 @@ button:hover {
 
 #imagem2 {
     margin-left: 60px;
+}
+
+img {
+    transition: 0.3s;
+}
+
+img:hover {
+    scale: 1.1;
 }
